@@ -66,7 +66,7 @@ img {
   }
   main {
     width: 95vw;
-    padding: 0.1rem 0rem;
+    padding: 0.3rem 0;
   }
 
   h1 {
@@ -80,7 +80,7 @@ img {
   }
 
   h3 {
-    right: 8vw;
+    right: 7vw;
   }
 
   p {
@@ -92,5 +92,10 @@ img {
     width: 40px;
     height: 40px;
     margin: 5px;
+  }
+
+  .profile {
+    margin: 15px 12px;
+    padding: 2px;
   }
 }
