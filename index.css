@@ -6,6 +6,7 @@ body {
   align-items: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 1rem;
+  margin: auto;
 }
 
 main {
@@ -60,8 +61,12 @@ img {
 }
 
 @media screen and (max-width: 899px) {
+  body {
+    padding: 0.5rem;
+  }
   main {
     width: 95vw;
+    padding: 0.1rem 0rem;
   }
 
   h1 {
@@ -75,7 +80,7 @@ img {
   }
 
   h3 {
-    right: 11vw;
+    right: 8vw;
   }
 
   p {
