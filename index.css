@@ -9,7 +9,8 @@ body {
   margin: auto;
 }
 
-main {
+main,
+.prize {
   width: 60vw;
   border: 1px solid black;
   border-radius: 5px;
@@ -19,6 +20,15 @@ main {
   flex-direction: column;
   overflow: auto;
   padding: 0.5rem 0;
+}
+
+.prize {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+  padding: 1rem;
+  width: 55vw;
 }
 
 h1 {
