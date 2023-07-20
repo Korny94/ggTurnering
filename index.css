@@ -28,7 +28,7 @@ main,
   margin-top: 2rem;
   gap: 1rem;
   padding: 1rem;
-  width: 55vw;
+  width: 57.5vw;
 }
 
 h1 {
@@ -47,6 +47,10 @@ h3 {
   margin: 0 1rem;
   position: absolute;
   right: 22vw;
+}
+
+h4 {
+  margin: 0.5rem;
 }
 
 p {
@@ -75,9 +79,14 @@ img {
   body {
     padding: 0.5rem;
   }
-  main {
+  main,
+  .prize {
     width: 95vw;
     padding: 0.3rem 0;
+  }
+
+  .prize {
+    padding-bottom: 1rem;
   }
 
   h1 {
@@ -97,6 +106,10 @@ img {
     margin-right: 2rem;
     margin-left: 0.5rem;
     font-size: 0.8rem;
+  }
+
+  .plass {
+    margin: 0;
   }
 
   img {
