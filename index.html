@@ -6,54 +6,2455 @@
     <title>Golf-Gutta Turnering</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" href="img/golf.png" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <h1>Golf-Gutta Turnering - 2023</h1>
+    <p>Click a player to see scorecards!</p>
+    <br />
+    <div class="scoreBG" id="bGHåkon">
+      <div class="rounds" id="roundsButtonsHåkon">
+        <button class="round" id="button1Håkon">Round 1</button>
+        <button class="round" id="button2Håkon">Round 2</button>
+        <button class="round" id="button3Håkon">Round 3</button>
+        <button class="round" id="button4Håkon">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeHåkon" />
+      </div>
+    </div>
+    <div class="scorecards" id="håkonScorecards">
+      <div class="scorekort" id="round1Håkon">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Håkon">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Håkon">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Håkon">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="scoreBG" id="bGMarius">
+      <div class="rounds" id="roundsButtonsMarius">
+        <button class="round" id="button1Marius">Round 1</button>
+        <button class="round" id="button2Marius">Round 2</button>
+        <button class="round" id="button3Marius">Round 3</button>
+        <button class="round" id="button4Marius">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeMarius" />
+      </div>
+    </div>
+    <div class="scorecards" id="mariusScorecards">
+      <div class="scorekort" id="round1Marius">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Marius">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Marius">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Marius">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scoreBG" id="bGAlex">
+      <div class="rounds" id="roundsButtonsAlex">
+        <button class="round" id="button1Alex">Round 1</button>
+        <button class="round" id="button2Alex">Round 2</button>
+        <button class="round" id="button3Alex">Round 3</button>
+        <button class="round" id="button4Alex">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeAlex" />
+      </div>
+    </div>
+    <div class="scorecards" id="alexScorecards">
+      <div class="scorekort" id="round1Alex">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Alex">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Alex">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Alex">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scoreBG" id="bGJone">
+      <div class="rounds" id="roundsButtonsJone">
+        <button class="round" id="button1Jone">Round 1</button>
+        <button class="round" id="button2Jone">Round 2</button>
+        <button class="round" id="button3Jone">Round 3</button>
+        <button class="round" id="button4Jone">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeJone" />
+      </div>
+    </div>
+    <div class="scorecards" id="joneScorecards">
+      <div class="scorekort" id="round1Jone">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Jone">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Jone">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Jone">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scoreBG" id="bGSimen">
+      <div class="rounds" id="roundsButtonsSimen">
+        <button class="round" id="button1Simen">Round 1</button>
+        <button class="round" id="button2Simen">Round 2</button>
+        <button class="round" id="button3Simen">Round 3</button>
+        <button class="round" id="button4Simen">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeSimen" />
+      </div>
+    </div>
+    <div class="scorecards" id="simenScorecards">
+      <div class="scorekort" id="round1Simen">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Simen">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Simen">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Simen">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scoreBG" id="bGMagne">
+      <div class="rounds" id="roundsButtonsMagne">
+        <button class="round" id="button1Magne">Round 1</button>
+        <button class="round" id="button2Magne">Round 2</button>
+        <button class="round" id="button3Magne">Round 3</button>
+        <button class="round" id="button4Magne">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeMagne" />
+      </div>
+    </div>
+    <div class="scorecards" id="magneScorecards">
+      <div class="scorekort" id="round1Magne">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Magne">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Magne">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Magne">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scoreBG" id="bGTim">
+      <div class="rounds" id="roundsButtonsTim">
+        <button class="round" id="button1Tim">Round 1</button>
+        <button class="round" id="button2Tim">Round 2</button>
+        <button class="round" id="button3Tim">Round 3</button>
+        <button class="round" id="button4Tim">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeTim" />
+      </div>
+    </div>
+    <div class="scorecards" id="timScorecards">
+      <div class="scorekort" id="round1Tim">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Tim">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Tim">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Tim">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scoreBG" id="bGKarl">
+      <div class="rounds" id="roundsButtonsKarl">
+        <button class="round" id="button1Karl">Round 1</button>
+        <button class="round" id="button2Karl">Round 2</button>
+        <button class="round" id="button3Karl">Round 3</button>
+        <button class="round" id="button4Karl">Round 4</button>
+        <img src="/img/x.png" alt="close" class="close" id="closeKarl" />
+      </div>
+    </div>
+    <div class="scorecards" id="karlScorecards">
+      <div class="scorekort" id="round1Karl">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R1</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round2Karl">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R2</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round3Karl">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R3</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="scorekort" id="round4Karl">
+        <div class="scoreHeader">
+          <p>Hull</p>
+          <p>Par</p>
+          <p>Score</p>
+        </div>
+        <div class="scoreNumbers">
+          <div class="scoreHull">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>R4</p>
+          </div>
+          <div class="scorePar">
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>4</p>
+            <p>4</p>
+            <p>5</p>
+            <p>3</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>4</p>
+            <p>3</p>
+            <p>5</p>
+            <p>71</p>
+          </div>
+          <div class="scoreScore">
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
-      <div class="profile">
+      <div class="profile" id="håkonScore">
         <h2>1st</h2>
         <img src="/img/håkon.jpg" alt="Håkon" />
         <p>Kari Bonara AKA Håkon</p>
         <h3>-140</h3>
       </div>
-      <div class="profile">
+      <div class="profile" id="mariusScore">
         <h2>2nd</h2>
         <img src="/img/marius.jpg" alt="Marius" />
-        <p>Fairway To Heaven AKA Marius</p>
+        <p class="mariusP">Fairway To Heaven AKA Marius</p>
         <h3>-116</h3>
       </div>
-      <div class="profile">
+      <div class="profile" id="alexScore">
         <h2>3rd</h2>
         <img src="/img/alex.jpg" alt="Alex" />
         <p>Hole-In-One AKA Alex</p>
         <h3>-76</h3>
       </div>
-      <div class="profile">
+      <div class="profile" id="joneScore">
         <h2>4th</h2>
         <img src="/img/jone.jpg" alt="Jone" />
         <p>Birdouble AKA Jone</p>
         <h3>-72</h3>
       </div>
-      <div class="profile">
+      <div class="profile" id="simenScore">
         <h2>5th</h2>
         <img src="/img/simen.jpg" alt="Simen" />
         <p>Quadrouple AKA Simen</p>
         <h3>-68</h3>
       </div>
-      <div class="profile">
+      <div class="profile" id="magneScore">
         <h2>6th</h2>
         <img src="/img/magne.jpg" alt="Magne" />
         <p>Harry Putter AKA Magne</p>
         <h3>-36</h3>
       </div>
-      <div class="profile">
+      <div class="profile" id="timScore">
         <h2>7th</h2>
         <img src="/img/tim.jpg" alt="Tim" />
         <p>BogeyMan AKA Tim</p>
         <h3>-32</h3>
       </div>
-      <div class="profile">
+      <div class="profile" id="karlScore">
         <h2>8th</h2>
         <img src="/img/korny.jpg" alt="Korny" />
         <p>Max-Bogey AKA Karl</p>
