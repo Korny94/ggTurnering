@@ -1,3 +1,13 @@
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #9899ae88;
+  border-radius: 4px;
+}
+
 .scorekort {
   border: 1px solid black;
   border-radius: 5px;
@@ -195,7 +205,7 @@ img {
   }
   main,
   .prize {
-    width: 95vw;
+    width: 93vw;
     padding: 0.3rem 0;
   }
 
@@ -236,5 +246,20 @@ img {
   .profile {
     margin: 15px 12px;
     padding: 2px;
+  }
+
+  .scorekort {
+    width: 90vw;
+    overflow-x: scroll;
+  }
+
+  .scorekort::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scorekort::-webkit-scrollbar-thumb {
+    background-color: #9899ae88;
+    border-radius: 4px;
   }
 }
