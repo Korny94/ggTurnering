@@ -101,7 +101,7 @@ main,
 }
 
 .mariusP {
-  margin-left: 0.6rem;
+  margin-left: 0.1rem;
 }
 
 .plass {
@@ -251,10 +251,6 @@ img {
   .scorekort {
     width: 90vw;
     overflow-x: scroll;
-  }
-
-  .mariusP {
-    margin-left: 0.3rem;
   }
 
   .scorekort::-webkit-scrollbar {
