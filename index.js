@@ -33,10 +33,10 @@ håkonScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
@@ -123,10 +123,10 @@ mariusScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
@@ -177,22 +177,22 @@ button4Marius.addEventListener("click", function () {
   showRound(round4Marius);
 });
 
-// /* Alex */
+// /* Adrian */
 
-const bGAlex = document.querySelector("#bGAlex");
-const alexScore = document.querySelector("#alexScore");
-const closeAlex = document.querySelector("#closeAlex");
-const round1Alex = document.querySelector("#round1Alex");
-const round2Alex = document.querySelector("#round2Alex");
-const round3Alex = document.querySelector("#round3Alex");
-const round4Alex = document.querySelector("#round4Alex");
-const button1Alex = document.querySelector("#button1Alex");
-const button2Alex = document.querySelector("#button2Alex");
-const button3Alex = document.querySelector("#button3Alex");
-const button4Alex = document.querySelector("#button4Alex");
+const bGAdrian = document.querySelector("#bGAdrian");
+const adrianScore = document.querySelector("#adrianScore");
+const closeAdrian = document.querySelector("#closeAdrian");
+const round1Adrian = document.querySelector("#round1Adrian");
+const round2Adrian = document.querySelector("#round2Adrian");
+const round3Adrian = document.querySelector("#round3Adrian");
+const round4Adrian = document.querySelector("#round4Adrian");
+const button1Adrian = document.querySelector("#button1Adrian");
+const button2Adrian = document.querySelector("#button2Adrian");
+const button3Adrian = document.querySelector("#button3Adrian");
+const button4Adrian = document.querySelector("#button4Adrian");
 
-alexScore.onclick = function () {
-  bGAlex.style.display = "block";
+adrianScore.onclick = function () {
+  bGAdrian.style.display = "block";
   round1Karl.style.display = "none";
   round2Karl.style.display = "none";
   round3Karl.style.display = "none";
@@ -213,10 +213,10 @@ alexScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
@@ -227,8 +227,8 @@ alexScore.onclick = function () {
   round4Håkon.style.display = "none";
 };
 
-closeAlex.onclick = function () {
-  bGAlex.style.display = "none";
+closeAdrian.onclick = function () {
+  bGAdrian.style.display = "none";
 };
 
 function showRound(roundElement) {
@@ -239,32 +239,32 @@ function showRound(roundElement) {
   });
 }
 
-button1Alex.addEventListener("click", function () {
-  bGAlex.style.display = "none";
+button1Adrian.addEventListener("click", function () {
+  bGAdrian.style.display = "none";
 
-  const round1Alex = document.getElementById("round1Alex");
-  showRound(round1Alex);
+  const round1Adrian = document.getElementById("round1Adrian");
+  showRound(round1Adrian);
 });
 
-button2Alex.addEventListener("click", function () {
-  bGAlex.style.display = "none";
+button2Adrian.addEventListener("click", function () {
+  bGAdrian.style.display = "none";
 
-  const round2Alex = document.getElementById("round2Alex");
-  showRound(round2Alex);
+  const round2Adrian = document.getElementById("round2Adrian");
+  showRound(round2Adrian);
 });
 
-button3Alex.addEventListener("click", function () {
-  bGAlex.style.display = "none";
+button3Adrian.addEventListener("click", function () {
+  bGAdrian.style.display = "none";
 
-  const round3Alex = document.getElementById("round3Alex");
-  showRound(round3Alex);
+  const round3Adrian = document.getElementById("round3Adrian");
+  showRound(round3Adrian);
 });
 
-button4Alex.addEventListener("click", function () {
-  bGAlex.style.display = "none";
+button4Adrian.addEventListener("click", function () {
+  bGAdrian.style.display = "none";
 
-  const round4Alex = document.getElementById("round4Alex");
-  showRound(round4Alex);
+  const round4Adrian = document.getElementById("round4Adrian");
+  showRound(round4Adrian);
 });
 
 /* JONE */
@@ -303,10 +303,10 @@ joneScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
@@ -393,10 +393,10 @@ simenScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
@@ -483,10 +483,10 @@ magneScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
@@ -573,10 +573,10 @@ timScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
@@ -663,10 +663,10 @@ karlScore.onclick = function () {
   round2Jone.style.display = "none";
   round3Jone.style.display = "none";
   round4Jone.style.display = "none";
-  round1Alex.style.display = "none";
-  round2Alex.style.display = "none";
-  round3Alex.style.display = "none";
-  round4Alex.style.display = "none";
+  round1Adrian.style.display = "none";
+  round2Adrian.style.display = "none";
+  round3Adrian.style.display = "none";
+  round4Adrian.style.display = "none";
   round1Marius.style.display = "none";
   round2Marius.style.display = "none";
   round3Marius.style.display = "none";
